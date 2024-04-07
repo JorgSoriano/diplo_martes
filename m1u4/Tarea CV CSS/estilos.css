@@ -1,0 +1,44 @@
+ h1{
+color: black;
+border: 2px solid black;
+font-size: 60px;
+text-align: center;
+background: fixed;
+
+
+ }
+ 
+ img {
+
+   border: 1px solid black;
+   width: 200px;
+   display: block;
+   margin: auto;
+   background-image: blue;
+   }
+ 
+.listas {
+
+
+font-size: 15px;
+padding: 10px auto 0;
+
+}
+
+p{
+   color: white;
+   font-size: large;
+   width: 400px;
+   background-color: rgb(229, 83, 83);
+   padding: 5px;
+}
+
+
+
+footer {
+
+   font-style: italic;
+   font-weight: 300;
+
+
+}
