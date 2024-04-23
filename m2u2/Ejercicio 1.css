@@ -1,0 +1,37 @@
+#contenedor {
+
+    border: 2px solid #1e1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.cuadro1 {
+
+
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.cuadro2 {
+
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.cuadro3 {
+
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
