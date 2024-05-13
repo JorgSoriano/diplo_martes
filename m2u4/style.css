@@ -1,0 +1,43 @@
+
+/* USO ACORDION*/
+
+
+/* USO CArROUSEL*/
+
+img {
+
+   width: 200px;
+   height: 350px;
+
+
+}
+
+
+
+/* USO DE CONTEINER*/
+
+
+/*COLUMNAS*/
+
+.col{
+
+background: red;
+
+
+}
+
+.col-2{
+
+background: orange;
+font-family: white;
+
+}
+
+/*BUTTON*/
+
+button{
+
+background: green;
+
+
+}
