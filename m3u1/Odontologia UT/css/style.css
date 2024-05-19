@@ -1,0 +1,194 @@
+/*font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+*/
+body {
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: #918b8b;
+
+}
+
+header {
+
+    background-color: white;
+    padding: 16px 0;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline-flex;
+    padding-right: 30px;
+
+}
+
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: grey;
+    text-decoration: underline;
+    font-size: 26px;
+}
+
+.activo {
+
+    color: rgb(107, 128, 133);
+
+
+}
+
+footer {
+
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.imagenlogo {
+
+    width: 150px;
+    padding-left: 30px;
+
+}
+
+
+.imageninicio {
+
+    width: 700px;
+    display: flex;
+    align-items: left;
+    padding-top: 40px;
+
+
+}
+
+.inicio {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.presentacion {
+
+    display: inline-block;
+    position: right;
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.presentacion:hover {
+
+    color: white;
+    font-size: 18px;
+    border: 6px solid white;
+}
+
+/*Fin de inicio*/
+
+
+/*Inicio de Nosotros*/
+
+.bodynosotros {
+
+    /*  background: rgb(15, 110, 104);*/
+    background: rgb(75, 159, 154);
+
+}
+
+
+.contenedornosotros {
+
+    display: inline-flex;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 6%;
+
+
+}
+
+.imagennosotros {
+
+    border: 4px solid white;
+    border-radius: 10%;
+}
+
+.textonosotros {
+
+    color: white;
+}
+
+
+
+/*Fin de Nosotros*/
+
+
+
+/*Inicio de Servicios*/
+
+.bodyservicios {
+
+    /*  background-color: #484545;*/
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300px;
+    background-color: #7d7878;
+
+}
+
+
+.contenedorservicios {
+
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 2px;
+    text-align: center;
+
+
+}
+
+
+.contenedorservicios img {
+
+
+    width: 180px;
+
+}
+
+.contenedorservicios :hover {
+
+    width: 350px;
+    font-size: 20px;
+    color: white;
+
+}
+
+/*Fin de Servicios*/
