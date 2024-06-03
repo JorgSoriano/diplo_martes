@@ -1,0 +1,43 @@
+.cajas {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.caja1 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: rgb(105, 165, 99);
+}
+
+
+.caja2 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: rgb(163, 177, 60);
+}
+
+
+.caja3 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: rgb(167, 79, 152);
+}
+
+.fondo1 {
+
+    background: rgb(105, 165, 99);
+}
+
+.fondo2 {
+
+    background: rgb(163, 177, 60);
+}
+
+.fondo3 {
+
+    background: rgb(167, 79, 152);
+}

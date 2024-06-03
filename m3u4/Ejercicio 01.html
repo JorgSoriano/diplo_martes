@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 01</title>
+</head>
+
+<body class="fondo">
+
+    <div class="cajas">
+        <div class="caja1" id="fondo1"></button></div>
+        <div class="caja2" id="fondo2"></button></div>
+        <div class="caja3" id="fondo3"></button></div>
+        <div><button class="reset" id="reset">RESET</button></div>
+    </div>
+    <script>
+
+        const fondo = document.getElementsByClassName('fondo')[0];
+        const fondo1 = document.getElementById('fondo1');
+        const fondo2 = document.getElementById('fondo2');
+        const fondo3 = document.getElementById('fondo3');
+
+        fondo1.addEventListener('click', function () {
+            fondo.classList.add('fondo1');
+        });
+
+        fondo2.addEventListener('click', function () {
+            fondo.classList.add('fondo2');
+        });
+
+        fondo3.addEventListener('click', function () {
+            fondo.classList.add('fondo3');
+        });
+
+        reset.addEventListener('click', function () {
+            fondo.classList.remove('fondo1', 'fondo2', 'fondo3');
+        });
+    </script>
+
+
+</body>
+
+</html>
