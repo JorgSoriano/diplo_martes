@@ -1,6 +1,6 @@
 import React from "react";
+import 'C:/Users/ricardog/Desktop/Diplo_martes/m4u1/transportes/frontend/src/styles/components/pages/NosotrosPage.css';
 const NosotrosPage = (props) => {
-
     return (
         <main className="holder">
 
@@ -15,11 +15,9 @@ const NosotrosPage = (props) => {
                     quam? Iusto sunt quae, aliquam perferendis,
                     quis quo repudiandae ratione corporis ipsum temporibus quibusdam optio quisquam
                     magnam eius fugit vitae dolorum.</p>
-
             </div>
 
             <div className="staff">
-
                 <h2>Staff</h2>
                 <div className="personas">
 
@@ -70,11 +68,7 @@ const NosotrosPage = (props) => {
                     </div>
                 </div>
             </div>
-
         </main>
-
-
-
     );
 }
 

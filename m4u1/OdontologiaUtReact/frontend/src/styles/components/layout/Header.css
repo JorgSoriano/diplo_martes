@@ -1,0 +1,17 @@
+.header {
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: -50px;
+}
+
+.hora {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: end;
+    font: bolder;
+    font-size: larger;
+    padding-right: 10px;
+    padding-top: 6px;
+}

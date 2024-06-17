@@ -1,4 +1,40 @@
-.App {
+body {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+
+.holder {
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+
+  color: #2e64a1;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +71,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
