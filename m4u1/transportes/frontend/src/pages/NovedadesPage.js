@@ -1,5 +1,5 @@
 import React from "react";
-import 'C:/Users/ricardog/Desktop/Diplo_martes/m4u1/transportes/frontend/src/styles/components/pages/NovedadesPage.css';
+import '../styles/components/pages/NovedadesPage.css';
 const NovedadesPage = (props) => {
     return (
         <section>

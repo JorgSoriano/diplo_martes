@@ -26,9 +26,9 @@ nav a {
 
 nav a:hover {
     color: white;
-    border: 5px solid #7d7878;
+    border: 3px solid #7d7878;
     background: #7d7878;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .activo {

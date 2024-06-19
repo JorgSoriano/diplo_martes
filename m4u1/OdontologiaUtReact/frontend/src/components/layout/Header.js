@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import 'C:/Users/ricardog/Desktop/Diplo_martes/m4u1/OdontologiaUtReact/frontend/src/styles/components/layout/Header.css';
+import '../../styles/components/layout/Header.css';
 
 
 const Header = (props) => {

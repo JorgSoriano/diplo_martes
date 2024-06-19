@@ -1,5 +1,5 @@
 import React from "react";
-import 'C:/Users/ricardog/Desktop/Diplo_martes/m4u1/OdontologiaUtReact/frontend/src/styles/components/pages/ContactoPage.css';
+import '../styles/components/pages/ContactoPage.css';
 const ContactoPage = (props) => {
 
     return (

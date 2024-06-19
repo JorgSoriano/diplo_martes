@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import 'C:/Users/ricardog/Desktop/Diplo_martes/m4u1/OdontologiaUtReact/frontend/src/styles/components/layout/Nav.css';
+import '../../styles/components/layout/Nav.css';
 const Nav = (props) => {
     return (
         <nav>
