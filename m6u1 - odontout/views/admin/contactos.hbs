@@ -1,0 +1,35 @@
+<div class="contacto">
+    <div class="contenedorcontacto">
+        <h2>Contacto</h2>
+        <form action="/admin/contactos" method="post" class="formulario">
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre">
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="text" name="mail">
+            </p>
+            <p>
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono">
+            </p>
+            <p>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje"></textarea>
+            </p>
+
+            <p><input type="submit" value="Enviar" />
+
+            </p>
+        </form>
+    </div>
+
+    <div class="col-5 text-end">
+        <p>Seccion</p>
+        <a class="btn btn-info" href="/admin/login"><i class="fa fa-plus" aria-hidden="true"></i>Administrador</a>
+    </div>
+</div>
+
+<br> <br> <br> <br>
