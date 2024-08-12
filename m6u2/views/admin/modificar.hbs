@@ -1,0 +1,46 @@
+<div class="container" style="margin:100px auto">
+
+    <div class="col-6 offset-3">
+
+        <div>
+
+            <h4 class="row">Modificar Contacto ID= {{agenda.id}} </h4>
+            <br>
+
+            <form action="/admin/agenda/modificar" method="post">
+
+                <div class="mb-3 row">
+                    <input type="hidden" name="id" value="{{agenda.id}}">
+                </div>
+                <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre"
+                        value="{{agenda.nombre}}">
+                </div>
+
+                <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Mail" name="mail" value="{{agenda.mail}}">
+                </div>
+                <div class="mb-3 row">
+                    <input type="number" class="form-control" placeholder="Teléfono" name="telefono"
+                        value="{{agenda.telefono}}">
+                </div>
+
+                <textarea type="text" class="form-control" placeholder="Mensaje"
+                    name="mensaje">{{agenda.mensaje}}</textarea>
+        </div>
+        <br><br>
+        <div>
+            <button type="submit" class="btn btn-danger">Modificar</button>
+        </div>
+        </form>
+
+        {{#if error}}
+        <h5>
+            {{message}}
+        </h5>
+        {{/if}}
+
+    </div>
+</div>
+
+</div>
